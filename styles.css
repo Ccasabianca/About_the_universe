@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* General */
+
+body {
+  font-family: "Roboto";
+  font-size: 12px;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+main {
+  margin-left: 10%;
+  padding: 20px;
+}
+.blue {
+  color: cornflowerblue;
+}
+
+.italic {
+font-style: italic;
+}
+
+.white {
+color: white;
+}
+
+.right {
+  display: flex;
+  justify-content: end;
+}
+
+.btn {
+  display: block;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: 3px solid white;
+}
+
+.btn:hover {
+color: cornflowerblue;
+}
+section {
+  border: 3px solid white;
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+
+/* Sections */
+#univers {
+  padding: 20px;
+}
+
+#univers div p {
+  margin-bottom: 50px;
+}
+
+#chiffres {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  border-bottom: 3px solid white;
+  font-size: 16px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li :hover {
+  color: cornflowerblue;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 7vw;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+  border-right: 3px solid white;
+}
+
+.sidebar ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.sidebar li div {
+  padding: 5px;
+}
+
+.sidebar li :hover {
+  color: cornflowerblue;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Cards */
+
+.cards-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 30%;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  font-weight: bold;
+}
+
+.card div i {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+/*  */
+/* Page Planètes */
+/*  */
+
+.planetes-container {
+display: grid;
+grid-template-columns: 3fr 5fr;
+gap: 40px;
+margin: 10px 0 0 10px;
+}
+
+/* Sections */
+
+#tableau-planetes {
+padding: 20px;
+}
+
+#details-planetes {
+padding: 20px;
+height: fit-content;
+}
+
+#planetsTable {
+  width: 100%;
+  border-collapse: collapse;
+  max-height: 400px;
+  overflow-y: scroll;
+  display: block;
+}
+
+#planetsTable th {
+  position: sticky;
+  top: 0;
+  background-color: cornflowerblue;
+  z-index: 1;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+#planetsTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+#planetsTable::-webkit-scrollbar {
+  display: none; /* Désactive la scrollbar du tableau */
+}
+
+#planetsTable tr {
+  width: 100%;
+  }
+
+#planetsTable tr:hover {
+background-color: cornflowerblue;
+}
+
+.planetes-card-title {
+  display: block;
+  font-size: 16px;
+font-weight: bold;
+text-transform: uppercase ;
+margin-bottom: 10px;
+}
+
+.planetes-card-container {
+  margin-top: 20px;
+display: grid;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(2, 1fr);
+}
+
+.planetes-card {
+  display: flex;
+  gap: 10px;
+padding: 20px 20px 20px 0;
+align-items: center;
+}
+
+.btn-row {
+  width: 200%;
+display: flex;
+justify-content: end;
+}
+
+.card-text {
+display: flex;
+flex-direction: column;
+}

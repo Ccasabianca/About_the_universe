@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the universe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img src="https://cdn.freebiesupply.com/logos/large/2x/spacex-logo-black-and-white.png"
+                width="200px" alt=""></logo>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">Prochaine Mission</a></li>
+            </ul>
+    </nav>
+    <sidebar class="sidebar">
+        <ul>
+            <li>
+                <div class="sidebar-icon">
+                    <i class="fa-solid fa-globe fa-2xl"></i>
+                </div>
+                <div>
+                    <a href="planets.html">Planètes</a>
+                </div>
+            </li>
+            <li>
+                <div class="sidebar-icon">
+                <i class="fa-solid fa-rocket fa-2xl"></i>
+            </div>
+            <div>
+                <a href="#">Véhicules</a>
+            </div>
+            </li>
+            <li>
+                <div class="sidebar-icon">
+                <i class="fa-brands fa-reddit-alien fa-2xl"></i>
+            </div>
+            <div>
+                <a href="#">Personnes</a>
+            </div>
+            </li>
+        </ul>
+    </sidebar>
+    <main>
+        <section id="univers">
+            <div>
+                <h2 class="section-title blue">About the Universe</h2>
+                <p>Bienvenue sur <span class="section-title blue">About the Universe</span> pour découvrir toutes nos
+                    découvertes à propos du monde qui nous entoure
+                    !</p>
+                <a href="#" class="btn">Découvrir</a>
+            </div>
+        </section>
+        <section id="chiffres">
+            <div>
+                <h2 class="section-title blue">Les Chiffres</h2>
+                <p>Nous nous efforçons à archiver toutes nos trouvailles pour vous les partager autant que possible !
+                </p>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fa-solid fa-user-group fa-2xl blue"></i>
+                    </div>
+                    <div>
+                        <p class="blue">Nombre d'êtres vivants recensés</p>
+                        <span id="people-count"></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fa-solid fa-shuttle-space fa-2xl blue"></i>
+                    </div>
+                    <div>
+                        <p class="blue">Nombre de véhicules recensés</p>
+                        <span id="starships-count"></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fa-solid fa-globe fa-2xl blue"></i>
+                    </div>
+                    <div>
+                        <p class="blue">Nombre de planètes recensées</p>
+                        <span id="planets-count"></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fa-solid fa-clock fa-2xl blue"></i>
+                    </div>
+                    <div>
+                        <p class="blue">Prochaine mission</p>
+                        <span>10 juin 2021</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#" class="btn">Participer à la prochaine mission</a>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
