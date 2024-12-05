@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-color: black;
   color: white;
+  
 }
 
 main {
@@ -195,6 +196,8 @@ padding: 20px;
 height: fit-content;
 }
 
+/* */
+
 #planetsTable {
   width: 100%;
   border-collapse: collapse;
@@ -233,6 +236,30 @@ height: fit-content;
 #planetsTable tr:hover {
 background-color: cornflowerblue;
 }
+
+.after-filter-count {
+margin-top: 10px;
+}
+
+#population-filter {
+  background-color: black;
+  border: 3px solid cornflowerblue;
+  border-radius: 5px;
+  width: fit-content;
+  color: white;
+  text-align: center  ;
+  padding: 5px;
+}
+
+#search-bar-planetes {
+  background-color: black;
+  border: 2px solid white;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  margin: 8px 0 8px 0;
+}
+
 
 .planetes-card-title {
   display: block;
